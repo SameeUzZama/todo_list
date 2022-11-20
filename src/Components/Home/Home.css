@@ -1,0 +1,289 @@
+@media screen and (min-width: 993px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_container {
+    border: solid 5px rgb(194, 187, 187);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  .top_container {
+    border: solid 5px rgb(194, 187, 187);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 5px;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  input {
+    width: 50%;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 5px;
+  }
+  .top-btn {
+    width: 50%;
+    margin-top: 2vh;
+  }
+  .todo_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btns {
+    width: 20vw;
+    margin: 20px;
+  }
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ol {
+    height: 40vh;
+    overflow-y: auto;
+  }
+  .todo {
+    display: flex;
+    align-items: center;
+    min-height: 6vh;
+    position: relative;
+    margin: 10px 0px;
+    border: solid 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(184, 0, 0, 40);
+  }
+  ol li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+    padding: 0px 8px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    color: #000000;
+  }
+  .action {
+    display: flex;
+    align-items: center;
+  }
+  .action .icon {
+    width: 20px;
+    height: 20px;
+    color: red;
+    margin: 0 10px;
+  }
+  .action .edit {
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 166, 0);
+    margin: 0 10px;
+  }
+  .action .checkbox {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_container {
+    border: solid 5px rgb(194, 187, 187);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  .top_container {
+    border: solid 5px rgb(194, 187, 187);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 5px;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  input {
+    width: 50%;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 5px;
+  }
+  .top-btn {
+    width: 50%;
+    margin-top: 2vh;
+  }
+  .todo_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btns {
+    width: 20vw;
+    margin: 20px;
+  }
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ol {
+    height: 40vh;
+    overflow-y: auto;
+  }
+  .todo {
+    display: flex;
+    align-items: center;
+    min-height: 6vh;
+    position: relative;
+    margin: 10px 0px;
+    border: solid 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(184, 0, 0, 40);
+  }
+  ol li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+    padding: 0px 8px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    color: #000000;
+  }
+  .action {
+    display: flex;
+    align-items: center;
+  }
+  .action .icon {
+    width: 20px;
+    height: 20px;
+    color: red;
+    margin: 0 10px;
+  }
+  .action .edit {
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 166, 0);
+    margin: 0 10px;
+  }
+  .action .checkbox {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_container {
+    border: solid 5px rgb(194, 187, 187);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  .top_container {
+    border: solid 5px rgb(194, 187, 187);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+      rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+      rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 5px;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  input {
+    width: 50%;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 5px;
+  }
+  .top-btn {
+    width: 50%;
+    margin-top: 2vh;
+  }
+  .todo_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btns {
+    margin: 2px;
+  }
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ol {
+    height: 40vh;
+    overflow-y: auto;
+  }
+  .todo {
+    display: flex;
+    align-items: center;
+    min-height: 6vh;
+    margin: 10px 0px;
+    border: solid 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(184, 0, 0, 40);
+  }
+  ol li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+    padding: 0px 8px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    color: #000000;
+  }
+  .action {
+    display: flex;
+    align-items: center;
+  }
+  .action .icon {
+    width: 20px;
+    height: 20px;
+    color: red;
+    margin: 0 2px;
+  }
+  .action .edit {
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 166, 0);
+    margin: 0 2px;
+  }
+  .action .checkbox {
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+  }
+}
